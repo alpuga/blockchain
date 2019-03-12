@@ -14,7 +14,7 @@ class Blockchain(object):
         self.current_transactions = []
         self.nodes = set()
 
-        # Create the genesis Block
+        # Create the genesis Block.
         self.new_block(previous_hash='1', proof=100)
 
     def register_node(self, address):
